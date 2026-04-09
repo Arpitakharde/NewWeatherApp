@@ -114,3 +114,39 @@ button:hover {
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  /* Mobile devices */
+  body {
+    padding: 10px;
+    align-items: flex-start; /* Cards start from top */
+  }
+
+  .weather-card {
+    width: 100%; /* Full width on small screens */
+    padding: 20px;
+  }
+
+  .input-group {
+    flex-direction: column; /* Stack input and button vertically */
+  }
+
+  input, button {
+    width: 100%; /* Full width for both */
+    border-radius: 12px; /* Rounded corners */
+    margin: 5px 0;
+  }
+
+  .weather-result {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .weather-result h2 {
+    font-size: 18px;
+  }
+
+  .weather-result p {
+    font-size: 13px;
+  }
+}
