@@ -35,7 +35,7 @@ getWeatherBtn.addEventListener("click", () => {
     });
 });
 
-// Simple icon mapping
+
 function getWeatherIcon(weather) {
   switch(weather.toLowerCase()){
     case "clouds": return "fa-cloud";
